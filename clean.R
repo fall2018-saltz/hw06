@@ -23,3 +23,4 @@ arrests<-USArrests
 arrests
 
 rownames(clean_data)<-clean_data$NAME
+rownames(arrests)
