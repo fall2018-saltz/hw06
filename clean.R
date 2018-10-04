@@ -25,3 +25,4 @@ arrests
 rownames(clean_data)<-clean_data$stateName
 rownames(clean_data)
 mergedDf<-merge(clean_data,arrests,by="row.names",all=TRUE)
+mergedDf<- mergedDf[,-c(1)]
