@@ -22,5 +22,4 @@ clean_data
 arrests<-USArrests
 arrests
 
-total <- merge(clean_data,arrests,by=0,all=TRUE)
-total
+rownames(clean_data)<-clean_data$NAME
