@@ -10,3 +10,5 @@ my_func<-function(states)
 
 clean_data<-my_func(raw_data)
 clean_data
+
+arrests<-USArrests
