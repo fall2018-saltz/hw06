@@ -21,3 +21,5 @@ clean_data
 
 arrests<-USArrests
 arrests
+
+total <- merge(data frameA,data frameB,by="stateName")
