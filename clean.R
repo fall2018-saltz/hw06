@@ -1,4 +1,12 @@
 
+# Course- IST687
+# Name- Aniruddh Garge
+# Homework 3
+# Due Date- 09/20/2018
+# Submission Date- 
+# SUID- 863559754
+
+
 raw_data
 my_func<-function(states)
 {
