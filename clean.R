@@ -24,4 +24,4 @@ arrests
 
 rownames(clean_data)<-clean_data$stateName
 rownames(clean_data)
-merge(clean_data,arrests)
+merge(clean_data,arrests,by="row.names",all=TRUE)
