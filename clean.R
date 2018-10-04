@@ -2,8 +2,8 @@
 raw_data
 my_func<-function(states)
 {
- states<-states[c(-1,-53),c(-1:-4)]
- colnames(states)<-c("stateName","population","popOver18")
+ states<-states[c(-1,-53),-c(1,2,3,4)]
+ colnames(states)<-c("stateName","population","popOver18","percentOver18")
  
  return(states)
 }
