@@ -22,5 +22,5 @@ clean_data
 arrests<-USArrests
 arrests
 
-total <- merge(clean_data,arrests,by=0)
+total <- merge(clean_data,arrests,by=0,all=TRUE)
 total
