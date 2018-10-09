@@ -6,7 +6,7 @@
 # Submission Date- 
 # SUID- 863559754
 
-
+library("ggplot2")
 raw_data
 my_func<-function(states)
 {
