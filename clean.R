@@ -6,8 +6,7 @@
 # Submission Date- 
 # SUID- 863559754
 
-install("ggplot2")
-library(ggplot2)
+
 raw_data
 my_func<-function(states)
 {
