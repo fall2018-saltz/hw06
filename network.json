@@ -43,6 +43,16 @@
             ],
             "source": "clean.R",
             "target": "BoxPop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BoxMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "BoxMurder.png"
         }
     ],
     "nodes": [
@@ -68,6 +78,6 @@
             "name": "BoxMurder.png"
         }
     ],
-    "updated_at": "2018-10-11 15:27:38",
+    "updated_at": "2018-10-11 15:27:47",
     "url": "https://github.com/fall2018-saltz/hw06"
 }
