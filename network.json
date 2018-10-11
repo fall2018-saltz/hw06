@@ -53,6 +53,16 @@
             ],
             "source": "clean.R",
             "target": "BoxMurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murdersPerState1",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "MurdersPerState1.png"
         }
     ],
     "nodes": [
@@ -81,6 +91,6 @@
             "name": "MurdersPerState1.png"
         }
     ],
-    "updated_at": "2018-10-11 15:31:13",
+    "updated_at": "2018-10-11 15:31:50",
     "url": "https://github.com/fall2018-saltz/hw06"
 }
