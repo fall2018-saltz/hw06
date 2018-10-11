@@ -31,3 +31,4 @@ mergedDf
 HistogramPop<-ggplot(mergedDf,aes(x=population))+geom_histogram(bins=50,color="black")
 HistogramMurder<-ggplot(mergedDf,aes(x=Murder))+geom_histogram(bins=50,color="blue")
 BoxPop<-ggplot(mergedDf,aes(x=factor(0),y=population))+geom_boxplot()
+BoxMurder<-ggplot(mergedDf,aes(x=factor(0),y=Murder))+geom_boxplot()
