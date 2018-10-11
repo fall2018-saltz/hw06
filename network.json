@@ -37,8 +37,11 @@
         },
         {
             "name": "HistogramPop.png"
+        },
+        {
+            "name": "HistogramMurder.png"
         }
     ],
-    "updated_at": "2018-10-11 15:25:31",
+    "updated_at": "2018-10-11 15:25:47",
     "url": "https://github.com/fall2018-saltz/hw06"
 }
