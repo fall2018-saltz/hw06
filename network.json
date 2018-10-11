@@ -33,16 +33,6 @@
             ],
             "source": "clean.R",
             "target": "HistogramPop.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "ggplot(mergedDf,aes(x=population))+geom_box()",
-                    "type": "png"
-                }
-            ],
-            "source": "clean.R",
-            "target": "BoxPlotPop.png"
         }
     ],
     "nodes": [
@@ -59,11 +49,8 @@
         },
         {
             "name": "HistogramPop.png"
-        },
-        {
-            "name": "BoxPlotPop.png"
         }
     ],
-    "updated_at": "2018-10-11 15:16:49",
+    "updated_at": "2018-10-11 15:17:53",
     "url": "https://github.com/fall2018-saltz/hw06"
 }
