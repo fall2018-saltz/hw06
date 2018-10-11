@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "HistogramMurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ggplot(mergedDf,aes(x=population))+geom_histogram(bins=50)",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "HistogramPop.png"
         }
     ],
     "nodes": [
@@ -41,6 +51,6 @@
             "name": "HistogramPop.png"
         }
     ],
-    "updated_at": "2018-10-11 15:15:18",
+    "updated_at": "2018-10-11 15:15:36",
     "url": "https://github.com/fall2018-saltz/hw06"
 }
