@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "HistogramPop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "HistogramMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "HistogramMurder.png"
         }
     ],
     "nodes": [
@@ -42,6 +52,6 @@
             "name": "HistogramMurder.png"
         }
     ],
-    "updated_at": "2018-10-11 15:25:47",
+    "updated_at": "2018-10-11 15:25:59",
     "url": "https://github.com/fall2018-saltz/hw06"
 }
