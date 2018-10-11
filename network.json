@@ -13,16 +13,6 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "ggplot(mergedDf,aes(x=Murder))+geom_histogram(bins=50)",
-                    "type": "png"
-                }
-            ],
-            "source": "clean.R",
-            "target": "HistogramPop.png"
         }
     ],
     "nodes": [
@@ -35,12 +25,9 @@
             "task_status": "in progress"
         },
         {
-            "name": "HistogramPop.png"
-        },
-        {
             "name": "HistogramMurder.png"
         }
     ],
-    "updated_at": "2018-10-11 15:13:53",
+    "updated_at": "2018-10-11 15:14:33",
     "url": "https://github.com/fall2018-saltz/hw06"
 }
