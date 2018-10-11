@@ -13,24 +13,11 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "ggplot(mergedDf,aes(x=population))+geom_histogram(bins=50)",
-                    "type": "png"
-                }
-            ],
-            "source": "clean.R",
-            "target": "HistogramPop.png"
         }
     ],
     "nodes": [
         {
             "name": "scprc_est_2017_18_pop_res.csv"
-        },
-        {
-            "name": "HistogramPop.png"
         },
         {
             "assigned_to": "agarge",
@@ -39,6 +26,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 15:23:18",
+    "updated_at": "2018-10-11 15:23:23",
     "url": "https://github.com/fall2018-saltz/hw06"
 }
