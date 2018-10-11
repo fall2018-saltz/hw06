@@ -49,8 +49,11 @@
         },
         {
             "name": "HistogramPop.png"
+        },
+        {
+            "name": "BoxPlotPop.png"
         }
     ],
-    "updated_at": "2018-10-11 15:15:36",
+    "updated_at": "2018-10-11 15:16:25",
     "url": "https://github.com/fall2018-saltz/hw06"
 }
