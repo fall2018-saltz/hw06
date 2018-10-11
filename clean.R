@@ -28,4 +28,4 @@ mergedDf<-merge(clean_data,arrests,by="row.names",all=TRUE)
 mergedDf<- mergedDf[,-c(1)]
 mergedDf
 
-geom(population,aes(x=Population))+geom_histogram()
+ggplot(mergedDf,aes(x=population))+geom_histogran()
