@@ -6,26 +6,15 @@
 # Submission Date- 
 # SUID- 863559754
 
-library(ggplot2)
-raw_data
-my_func<-function(states)
-{
- states<-states[c(-1,-53),-c(1,2,3,4)]
- colnames(states)<-c("stateName","population","popOver18","percentOver18")
- 
- return(states)
-}
+cleanCensus <- readStates(raw_data)
+str(cleanCensus)
+clean_data <- cleanCensus
 
-clean_data<-my_func(raw_data)
-clean_data
 
-arrests<-USArrests
-arrests
+arrests <- USArrests
+arrests$stateName<-rownames(arrests)
+final_data <-merge(clean_data,arrests,by="stateName")
 
-rownames(clean_data)<-clean_data$stateName
-rownames(clean_data)
-mergedDf<-merge(clean_data,arrests,by="row.names",all=TRUE)
-mergedDf<- mergedDf[,-c(1)]
-mergedDf
 
-ggplot(mergedDf,aes(x=population))+geom_histogram()
+library("ggplot2")
+df <- final_data
