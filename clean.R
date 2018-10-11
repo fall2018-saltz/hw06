@@ -34,10 +34,10 @@ BoxPop<-ggplot(mergedDf,aes(x=factor(0),y=population))+geom_boxplot()
 BoxMurder<-ggplot(mergedDf,aes(x=factor(0),y=Murder))+geom_boxplot()
 
 
-new<-mergedData$population*mergedData$Murder
+new<-mergedDf$population*mergedDf$Murder
 numberOfMurders=new/100000
 numberOfMurders
 
 
-murdersPerState1<-ggplot(mergedData,aes(x=Statename,y=numberOfMurders))+geom_col()
+murdersPerState1<-ggplot(mergedDf,aes(x=Statename,y=numberOfMurders))+geom_col()
 murdersPerState1
