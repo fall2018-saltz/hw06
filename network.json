@@ -13,6 +13,16 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "HistogramPop",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "HistogramPop.png"
         }
     ],
     "nodes": [
@@ -29,6 +39,6 @@
             "name": "HistogramPop.png"
         }
     ],
-    "updated_at": "2018-10-11 15:25:18",
+    "updated_at": "2018-10-11 15:25:31",
     "url": "https://github.com/fall2018-saltz/hw06"
 }
